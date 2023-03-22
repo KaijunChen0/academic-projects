@@ -80,8 +80,7 @@ def get_valid_words():
     # Implement this function so that it returns
     # a list of words consisting of only words of the
     # correct length from the Scrabble word list
-    words_file = open("/Users/kc/Documents/GitHub/cs5001/hw06/"
-                      + "Collins Scrabble Words (2019).txt", "r")
+    words_file = open("Collins Scrabble Words (2019).txt", "r")
     five_letter_words = []
     for each_line in words_file:
         if len(each_line.rstrip()) == WORD_LENGTH:

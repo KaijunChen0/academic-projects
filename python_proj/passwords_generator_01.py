@@ -1,6 +1,9 @@
 import random
 
 
+LENGTH_OF_NAME = 7
+
+
 def main():
     '''The function can generate one user name and three password options for
     users who need to enter their first name, last name and favorite
@@ -20,8 +23,8 @@ def main():
     # Then generate the following seven letters and
     # asterisks, which is from last name.
     length_last_name = len(last_name)
-    if length_last_name < 7:
-        cnt = 7 - length_last_name
+    if length_last_name < LENGTH_OF_NAME:
+        cnt = LENGTH_OF_NAME - length_last_name
         user_name_p2 = last_name.lower() + "*" * cnt
 
     # finally, pick a random number from 0 to 99
