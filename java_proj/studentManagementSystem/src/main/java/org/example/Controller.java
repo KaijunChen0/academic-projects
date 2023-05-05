@@ -18,6 +18,7 @@ public class Controller {
     // in http://localhost:8080, put /test after 8080, and restart Application
     // and refresh the webpage, we will get "TEST" displayed in the web.
     private Gson gson = new Gson();
+
     @GetMapping("/test")
     public String test(){
         List<Student> students = studentMapper.selectList(null);
