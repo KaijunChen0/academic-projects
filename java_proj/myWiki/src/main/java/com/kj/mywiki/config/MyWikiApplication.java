@@ -1,12 +1,15 @@
-package com.kj.mywiki;
+package com.kj.mywiki.config;
 
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.core.env.Environment;
 
 import org.slf4j.Logger;
 
+@ComponentScan("com.kj")
+// scan more than one package, use @ComponentScan({"com.kj", "com.test"})
 @SpringBootApplication
 public class MyWikiApplication {
     private static final Logger LOG = LoggerFactory.getLogger(MyWikiApplication.class);

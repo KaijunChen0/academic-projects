@@ -8,12 +8,13 @@ import org.springframework.web.bind.annotation.RestController;
 //@Controller // return a webpage, in this case, return a webpage named "hello"
 public class TestController {
     /*
-    * HTTP regular request ways: GET, POST, PUT, DELETE
-    * restful style
-    * GET: to send a request
-    * POST: to add
-    * PUT: to modify
-    * DELETE: to delete
+    * HTTP regular 4 request ways: GET, POST, PUT, DELETE
+    * "restful style"
+    * GET: to send a request (@GetMapping only for get request)
+    * POST: to add (@PostMapping only for post)
+    * PUT: to modify (@PutMapping only for put)
+    * DELETE: to delete (@DeleteMapping only for delete)
+    * (@RequestMapping: support all above ways)
     */
     @RequestMapping("/hello") // http://127.0.0.1:8080/hello
     public String hello(){
