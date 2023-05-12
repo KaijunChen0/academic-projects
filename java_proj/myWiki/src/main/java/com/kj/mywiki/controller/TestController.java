@@ -1,8 +1,12 @@
 package com.kj.mywiki.controller;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import java.util.Map;
 
 @RestController // =@Controller + @ResponseBody(to return a string or json object), return string, that is return "hello".
 //@Controller // return a webpage, in this case, return a webpage named "hello"
@@ -16,8 +20,16 @@ public class TestController {
     * DELETE: to delete (@DeleteMapping only for delete)
     * (@RequestMapping: support all above ways)
     */
-    @RequestMapping("/hello") // http://127.0.0.1:8080/hello
+
+//    @RequestMapping("/hello") // http://127.0.0.1:8080/hello
+//    public String hello(){return "Hello, welcome!";}
+    @GetMapping("/hello")
     public String hello(){
         return "Hello, welcome!";
+    }
+
+    @PostMapping ("/hello/post")
+    public String helloPost(Map<String, String> map){
+        return "Hello, welcome! Post, " + map.get("name");
     }
 }

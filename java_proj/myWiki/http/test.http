@@ -1,0 +1,11 @@
+GET http://127.0.0.1:8080/hello
+Accept: application/json
+
+###
+
+POST http://localhost:8080/hello/post
+Content-Type: application/x-www-form-urlencoded
+
+name=TEST
+
+###
