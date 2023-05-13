@@ -29,7 +29,7 @@ public class TestController {
     }
 
     @PostMapping ("/hello/post")
-    public String helloPost(Map<String, String> map){
-        return "Hello, welcome! Post, " + map.get("name");
+    public String helloPost(String name){
+        return "Hello, welcome! Post, " + name;
     }
 }
