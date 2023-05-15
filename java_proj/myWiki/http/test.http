@@ -8,7 +8,7 @@ GET http://127.0.0.1:8080/hello
  //     client.log(JSON.stringify(response.body)); //it works although idea does not prompt JSON
  //     client.assert(response.status === 200, "return value is not 200");
  //     client.assert(response.body === "Hello, welcome!", "Fail to test");
- });
+ // });
  %}
 
 ###
