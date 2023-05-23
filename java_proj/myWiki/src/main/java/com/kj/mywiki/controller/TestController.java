@@ -1,5 +1,9 @@
 package com.kj.mywiki.controller;
 
+import com.kj.mywiki.domain.Test;
+import com.kj.mywiki.service.TestService;
+import jakarta.annotation.Resource;
+import java.util.List;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -11,6 +15,9 @@ public class TestController {
 
     @Value("${test.hello:TEST}")
     private String testHello;
+
+    @Resource
+    private TestService testService;
 
     /*
     * HTTP regular 4 request ways: GET, POST, PUT, DELETE
@@ -33,5 +40,10 @@ public class TestController {
     @PostMapping ("/hello/post")
     public String helloPost(String name){
         return "Hello, welcome! Post, " + name;
+    }
+
+    @GetMapping("/test/list")
+    public List<Test> list(){
+        return testService.list();
     }
 }
