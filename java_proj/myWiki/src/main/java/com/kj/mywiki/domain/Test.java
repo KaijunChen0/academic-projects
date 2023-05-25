@@ -1,5 +1,8 @@
 package com.kj.mywiki.domain;
 
+/**
+ * Class Test stores information from a table named `test` in mysql database.
+ */
 public class Test {
     private Integer id;
     private String name;
