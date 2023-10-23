@@ -1,0 +1,3 @@
+/Users/kc/Documents/GitHub/academic-projects/cpp_proj/AirQuality/cmake-build-debug/CMakeFiles/finalProject.dir
+/Users/kc/Documents/GitHub/academic-projects/cpp_proj/AirQuality/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/kc/Documents/GitHub/academic-projects/cpp_proj/AirQuality/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,15 @@
+# ninja log v5
+677	739	1692222781151115606	finalProject	cf232f9e25f95a1e
+6	509	1692173831266940425	CMakeFiles/finalProject.dir/CsvFileReader.cpp.o	24a146e1ef5b0033
+6	366	1692173831124246353	CMakeFiles/finalProject.dir/Date.cpp.o	37e24918c4b0ccac
+6	348	1692173831104915674	CMakeFiles/finalProject.dir/Time.cpp.o	45e8c60ac194286a
+5	676	1692222781086049082	CMakeFiles/finalProject.dir/main.cpp.o	bcebb100477f999f
+5	334	1692173831089919076	CMakeFiles/finalProject.dir/AirQualityType.cpp.o	396f7cd6f0317910
+6	382	1692173831139927556	CMakeFiles/finalProject.dir/Statistics.cpp.o	238c3a9c7b6f80b6
+7	923	1698021074326509034	CMakeFiles/finalProject.dir/AirQualityType.cpp.o	660fa8ab336aa4e3
+8	945	1698021074348963307	CMakeFiles/finalProject.dir/Time.cpp.o	5cadfb20d27875d8
+7	971	1698021074370645610	CMakeFiles/finalProject.dir/Date.cpp.o	aeb06429c5124953
+9	1127	1698021074530139175	CMakeFiles/finalProject.dir/Statistics.cpp.o	b8183cb1a6a4e5a4
+7	1220	1698021074624841153	CMakeFiles/finalProject.dir/main.cpp.o	e846ffc48aa903d9
+9	1400	1698021074806240679	CMakeFiles/finalProject.dir/CsvFileReader.cpp.o	7a7900d2a1aac5d2
+1400	1471	1698021074880825001	finalProject	cf232f9e25f95a1e
